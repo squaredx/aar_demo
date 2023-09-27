@@ -281,7 +281,7 @@ class _MyHomePageState extends State<MyHomePage> {
       default:
         break;
     }
-    return Text(text, style: TextStyle(color: Colors.white));
+    return Text(text);
   }
 
   void onPlayAudio() async {
